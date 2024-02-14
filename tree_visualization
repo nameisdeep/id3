@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Class: 0"]
+	0 -> 1 [label="<= 40"]
+	2 [label=1]
+	0 -> 2 [label="> 40"]
+	3 [label="Class: 0"]
+	2 -> 3 [label="<= 48141"]
+	4 [label="Class: 1"]
+	2 -> 4 [label="> 48141"]
+}

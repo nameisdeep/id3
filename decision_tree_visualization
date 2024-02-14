@@ -1,0 +1,11 @@
+digraph {
+	A [label="Feature 0 <= 40"]
+	B [label="Class: 0"]
+	A -> B [label=True]
+	C [label="Feature 1 <= 48141"]
+	A -> C [label=False]
+	D [label="Class: 0"]
+	E [label="Class: 1"]
+	C -> D [label=True]
+	C -> E [label=False]
+}

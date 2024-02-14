@@ -1,0 +1,11 @@
+digraph {
+	Root [label=Root]
+	"Feature 0" [label="Feature 0"]
+	Root -> "Feature 0"
+	"Decision e" [label="Decision e"]
+	"Feature 0" -> "Decision e" [label=A]
+	"Decision r" [label="Decision r"]
+	"Feature 0" -> "Decision r" [label=P]
+	"Decision l" [label="Decision l"]
+	"Feature 0" -> "Decision l" [label=S]
+}
